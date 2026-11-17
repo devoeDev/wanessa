@@ -23,7 +23,7 @@ test('build inclui metadados, schema válido e arquivos de rastreamento', async 
 });
 
 test('cada retrato possui original e variantes WebP locais disponiveis no build', async () => {
- const mapping = { hero: '/foto3.jpeg', about: '/foto1.jpeg', contact: '/foto2.jpeg' };
+ const mapping = { hero: '/foto04.jpeg', quote: '/foto3.jpeg', about: '/foto1.jpeg', contact: '/foto2.jpeg' };
  for (const [placement, source] of Object.entries(mapping)) {
   const photo = content.photos[placement];
   assert.equal(photo.src, source);

@@ -6,7 +6,7 @@ export const profile = {
   instagram: '', // URL https://www.instagram.com/...
   email: '',
   crn: 'CRN-5 9387',
-  portrait: '/foto3.jpeg', // Foto autorizada em public, por exemplo: /wanessa.jpg.
+  portrait: '/foto04.jpeg', // Foto autorizada em public, por exemplo: /wanessa.jpg.
   privacyUrl: '', // URL de uma pol?tica real, quando aplic?vel.
   siteUrl: '', // URL definitiva para canonical e compartilhamento.
 };
@@ -17,6 +17,13 @@ export const content = {
   // Original JPEGs remain untouched. Responsive WebP files preserve full framing.
   photos: {
     hero: {
+      src: profile.portrait,
+      srcSet: '/images/foto04-480.webp 480w, /images/foto04-800.webp 800w, /images/foto04-1242.webp 1242w',
+      width: 1242, height: 1551,
+      position: '50% 50%',
+      alt: 'Wanessa Freire de camisa azul listrada, em pé ao lado de uma janela.',
+    },
+    quote: {
       src: '/foto3.jpeg',
       srcSet: '/images/foto3-480.webp 480w, /images/foto3-800.webp 800w, /images/foto3-1179.webp 1179w',
       width: 1179, height: 1432,
