@@ -56,6 +56,9 @@
 .qualification-status{flex-shrink:0;font-size:9px;line-height:1.6;color:#526147;padding:4px 8px;background:#e9edde;border-radius:3px}
 .qualification-status.is-pending{color:#77552c;background:#f0e9d8}
 #sobre{align-items:start}
+.about-credentials{font-size:14px;line-height:1.8;color:var(--olive);margin-bottom:28px}
+.about-purpose{border-left:2px solid var(--olive);padding-left:20px;margin-block:28px}
+.about-axes{grid-column:1 / -1}
 #sobre .about-visual{margin-top:6px}
 @media(max-width:767px){.qualifications li{gap:12px}.qualification-status{font-size:8px;padding:4px 6px}.qualifications h3{font-size:12px}}
 /* Responsive botanical wordmark, with an enlarged professional descriptor. */

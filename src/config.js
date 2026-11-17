@@ -1,11 +1,11 @@
 // Conteúdo editorial sujeito à revisão da profissional antes da publicação.
 // Campos vazios nunca geram credenciais, contatos ou relatos fictícios.
 export const profile = {
-  name: 'Wanessa Freire',
+  name: 'Wanessa Freire de Oliveira',
   whatsapp: '', // DDI + DDD + número, somente dígitos.
   instagram: '', // URL https://www.instagram.com/...
   email: '',
-  crn: '',
+  crn: 'CRN-5 9387',
   portrait: '/foto3.jpeg', // Foto autorizada em public, por exemplo: /wanessa.jpg.
   privacyUrl: '', // URL de uma pol?tica real, quando aplic?vel.
   siteUrl: '', // URL definitiva para canonical e compartilhamento.
@@ -39,16 +39,51 @@ export const content = {
     },
   },
   about: [
-    'Sou Wanessa Freire, nutricionista formada pela Universidade Tiradentes em 2016. Desde então, atendo cada paciente com compromisso, responsabilidade e respeito à sua história.',
-    'Minha trajetória une o cuidado com os pacientes, a formação continuada e o ensino. Também sou docente na Anhanguera — Unopar, em Sergipe, compartilhando conhecimento e experiência na formação de novos profissionais.',
-  ],
+  "Sou Wanessa Freire de Oliveira, nutricionista formada pela Universidade Tiradentes (UNIT), em 2016, com trajetória profissional dedicada à promoção da saúde, à ciência da Nutrição e ao cuidado integral das pessoas.",
+  "Ao longo da minha caminhada, construí experiências em diferentes áreas da Nutrição, incluindo atendimento clínico, alimentação escolar, vigilância sanitária, qualidade dos alimentos e educação em saúde. Essa vivência multidisciplinar ampliou minha visão sobre o papel da alimentação na prevenção de doenças, na qualidade de vida e na promoção da saúde individual e coletiva.",
+  "Sou especialista em Nutrição com ênfase em Obesidade e Emagrecimento e em Vigilância Sanitária e Qualidade dos Alimentos. Também tenho experiência na docência, tutoria e preceptoria de estudantes de Nutrição, atividades que fortaleceram minha identificação com o ensino, a pesquisa e a formação de novos profissionais.",
+  "Minha atuação é orientada por uma visão humanizada, individualizada e baseada em evidências científicas. Acredito que a Nutrição não deve se limitar a números na balança ou a dietas restritivas, mas considerar a história, a rotina, as necessidades e a individualidade de cada pessoa.",
+  "Tenho especial interesse pela saúde da mulher, saúde intestinal, microbiota, doenças crônicas e estratégias nutricionais voltadas à prevenção e ao tratamento de condições que impactam a qualidade de vida.",
+  "Acredito na Nutrição como uma ferramenta de transformação: uma ciência que acolhe, orienta, previne e promove saúde."
+],
+  purpose: 'Meu propósito é transformar conhecimento científico em cuidado, tornando a alimentação uma aliada na construção de uma vida mais saudável, consciente e equilibrada.',
+  aboutTagline: 'Nutrição baseada em ciência. Cuidado que respeita a sua individualidade.',
   qualifications: [
-    { title: 'Graduação em Nutrição', detail: 'Universidade Tiradentes · 2016', status: 'Concluída' },
-    { title: 'Pós-graduação em Obesidade', detail: 'Com ênfase em emagrecimento', status: 'Concluída' },
-    { title: 'Pós-graduação em Vigilância Sanitária', detail: '', status: 'Concluída' },
-    { title: 'Pós-graduação em UTI', detail: 'Em fase de finalização', status: 'Em andamento' },
-    { title: 'Docência', detail: 'Anhanguera — Unopar · Sergipe', status: 'Atuação atual' },
-  ],
+  {
+    "title": "Graduação em Nutrição",
+    "detail": "Universidade Tiradentes (UNIT) · 2016",
+    "status": "Concluída"
+  },
+  {
+    "title": "Nutrição com ênfase em Obesidade e Emagrecimento",
+    "detail": "",
+    "status": "Especialização"
+  },
+  {
+    "title": "Vigilância Sanitária e Qualidade dos Alimentos",
+    "detail": "",
+    "status": "Especialização"
+  },
+  {
+    "title": "Docência, tutoria e preceptoria",
+    "detail": "Experiência na formação de estudantes de Nutrição",
+    "status": "Ensino"
+  }
+],
+  professionalAxes: [
+  {
+    "title": "Nutrição Clínica",
+    "description": "Cuidado individualizado, saúde da mulher, saúde intestinal e doenças crônicas."
+  },
+  {
+    "title": "Ciência e Educação",
+    "description": "Formação acadêmica, docência, pesquisa e atualização científica."
+  },
+  {
+    "title": "Saúde Coletiva e Alimentação",
+    "description": "Experiência em alimentação escolar, segurança alimentar e qualidade dos alimentos."
+  }
+],
   // Inclua somente áreas de atendimento confirmadas. Não representam títulos de especialista.
   // Exemplo de formato: { title: 'Área confirmada', description: 'Como funciona este cuidado.' }
   areas: [],
