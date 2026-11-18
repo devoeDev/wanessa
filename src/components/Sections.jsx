@@ -17,5 +17,5 @@ export function Testimonials() {
   return <section id="depoimentos" className="testimonials-section"><div className="shell section"><Enter><p className="eyebrow">HISTÓRIAS & EXPERIÊNCIAS</p><h2>Cada história merece<br/><em>ser ouvida.</em></h2>{content.testimonials.length ? <div className="grid md:grid-cols-2 gap-6 mt-10">{content.testimonials.map((item, i) => <figure className="care-card" key={i}><Quote size={25}/><blockquote>{item.quote}</blockquote><figcaption>{item.name}</figcaption></figure>)}</div> : <p className="body-copy testimonial-empty">Este espaço está reservado a depoimentos reais, compartilhados com autorização. Novas histórias serão publicadas aqui quando estiverem disponíveis.</p>}</Enter></div></section>;
 }
 export function ContactLinks() {
-  return profile.email ? <a className="instagram-link" href={`mailto:${profile.email}`}><Mail size={18}/> Enviar e-mail <ArrowUpRight size={16}/></a> : null;
+  return profile.email ? <a className="contact-link" href={`mailto:${profile.email}`}><Mail size={18} aria-hidden="true"/> <span>{profile.email}</span></a> : null;
 }

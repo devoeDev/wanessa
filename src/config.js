@@ -2,9 +2,10 @@
 // Campos vazios nunca geram credenciais, contatos ou relatos fictícios.
 export const profile = {
   name: 'Wanessa Freire de Oliveira',
-  whatsapp: '', // DDI + DDD + número, somente dígitos.
-  instagram: '', // URL https://www.instagram.com/...
-  email: '',
+  whatsapp: '557998238873', // DDI + DDD + número, somente dígitos.
+  phoneLabel: '+55 79 9823-8873',
+  instagram: 'https://www.instagram.com/wanessafreirenutri?igsh=NTVwMGd1emFqNDFn&utm_source=qr',
+  email: 'wanessa.freire.oliveira@gmail.com',
   crn: 'CRN-5 9387',
   portrait: '/foto04.jpeg', // Foto autorizada em public, por exemplo: /wanessa.jpg.
   privacyUrl: '', // URL de uma pol?tica real, quando aplic?vel.
