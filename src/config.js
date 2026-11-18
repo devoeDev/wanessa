@@ -1,11 +1,11 @@
 // Conteúdo editorial sujeito à revisão da profissional antes da publicação.
 // Campos vazios nunca geram credenciais, contatos ou relatos fictícios.
 export const profile = {
-  name: 'Wanessa Freire de Oliveira',
+  name: 'Wanessa Freire',
   whatsapp: '557998238873', // DDI + DDD + número, somente dígitos.
   phoneLabel: '+55 79 9823-8873',
   instagram: 'https://www.instagram.com/wanessafreirenutri?igsh=NTVwMGd1emFqNDFn&utm_source=qr',
-  email: 'wanessa.freire.oliveira@gmail.com',
+  email: '',
   crn: 'CRN-5 9387',
   portrait: '/foto04.jpeg', // Foto autorizada em public, por exemplo: /wanessa.jpg.
   privacyUrl: '', // URL de uma pol?tica real, quando aplic?vel.
@@ -47,9 +47,9 @@ export const content = {
     },
   },
   about: [
-  "Sou Wanessa Freire de Oliveira, nutricionista formada pela Universidade Tiradentes (UNIT), em 2016, com trajetória profissional dedicada à promoção da saúde, à ciência da Nutrição e ao cuidado integral das pessoas.",
+  "Sou Wanessa Freire, nutricionista formada pela Universidade Tiradentes (UNIT), em 2016, com trajetória profissional dedicada à promoção da saúde, à ciência da Nutrição e ao cuidado integral das pessoas.",
   "Ao longo da minha caminhada, construí experiências em diferentes áreas da Nutrição, incluindo atendimento clínico, alimentação escolar, vigilância sanitária, qualidade dos alimentos e educação em saúde. Essa vivência multidisciplinar ampliou minha visão sobre o papel da alimentação na prevenção de doenças, na qualidade de vida e na promoção da saúde individual e coletiva.",
-  "Sou especialista em Nutrição com ênfase em Obesidade e Emagrecimento e em Vigilância Sanitária e Qualidade dos Alimentos. Também tenho experiência na docência, tutoria e preceptoria de estudantes de Nutrição, atividades que fortaleceram minha identificação com o ensino, a pesquisa e a formação de novos profissionais.",
+  "Sou especialista em Nutrição com ênfase em Obesidade e Emagrecimento e em Vigilância Sanitária e Qualidade dos Alimentos. Também tenho pós-graduação em Alimentação Escolar e em Nutrição em UTI. Minha experiência na docência, tutoria e preceptoria de estudantes de Nutrição fortaleceu minha identificação com o ensino, a pesquisa e a formação de novos profissionais.",
   "Minha atuação é orientada por uma visão humanizada, individualizada e baseada em evidências científicas. Acredito que a Nutrição não deve se limitar a números na balança ou a dietas restritivas, mas considerar a história, a rotina, as necessidades e a individualidade de cada pessoa.",
   "Tenho especial interesse pela saúde da mulher, saúde intestinal, microbiota, doenças crônicas e estratégias nutricionais voltadas à prevenção e ao tratamento de condições que impactam a qualidade de vida.",
   "Acredito na Nutrição como uma ferramenta de transformação: uma ciência que acolhe, orienta, previne e promove saúde."
@@ -71,6 +71,16 @@ export const content = {
     "title": "Vigilância Sanitária e Qualidade dos Alimentos",
     "detail": "",
     "status": "Especialização"
+  },
+  {
+    "title": "Alimentação Escolar",
+    "detail": "",
+    "status": "Pós-graduação"
+  },
+  {
+    "title": "Nutrição em UTI",
+    "detail": "",
+    "status": "Pós-graduação"
   },
   {
     "title": "Docência, tutoria e preceptoria",
